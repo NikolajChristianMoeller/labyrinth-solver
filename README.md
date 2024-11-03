@@ -1,7 +1,5 @@
 # Maze-Solver
 
-Hvilken algoritme du har brugt (også hvis det blot er Depth-First Search med backtracking)
-Om du har brugt rekursiv eller stack, eller en kombination (for eksempel kan du bruge en rekursiv visiting funktion der gemmer routen i en stack, i så fald, beskriv det sådan)
-Om du har beregnet ruten i ét hug, eller om den bliver animeret.
-Om du viser backtracking eller smider dem ud, og kun viser den færdige rute.
-andre eventuelle informationer der er rare at vide for den der læser koden.
+Algoritmen benytter Depth-First Search (DFS) med backtracking, implementeret med en stack. Ruten gemmes i en stack (rute), hvor algoritmen bevæger sig gennem labyrinten ved at besøge naborum, indtil målet nås eller tilbagegående skridt er nødvendige.
+
+Ruten beregnes og vises samlet, når "solve" knappen klikkes, uden animation. Backtracking-processen vises ikke; kun den endelige rute fremvises.
